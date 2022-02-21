@@ -114,7 +114,7 @@ public class ServersController {
 			}	
 		});
 		//System.out.println(list.get(1));
-		model.addAttribute(list);
+		model.addAttribute("list",list);
 		createDynamicUi(model);
 		return "ServersSearch";
 	}
